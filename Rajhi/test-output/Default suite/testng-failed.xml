@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Rajhi.Login">
+      <class name="rajhiPages.Login">
         <methods>
-          <include name="Closedriver"/>
-          <include name="OpenURL"/>
+          <include name="LoginFailWrongPW"/>
+          <include name="LoginFailWrongUserName"/>
           <include name="LoginSuccess"/>
+          <include name="OpenURL"/>
+          <include name="Closedriver"/>
         </methods>
-      </class> <!-- Rajhi.Login -->
+      </class> <!-- rajhiPages.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

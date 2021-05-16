@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-15T06:04:54 CEST" name="Default suite" finished-at="2021-05-15T06:05:28 CEST" duration-ms="34311">
+  <suite started-at="2021-05-16T18:43:14 CEST" name="Default suite" finished-at="2021-05-16T18:43:29 CEST" duration-ms="14279">
     <groups>
     </groups>
-    <test started-at="2021-05-15T06:04:54 CEST" name="Default test" finished-at="2021-05-15T06:05:28 CEST" duration-ms="34311">
-      <class name="rajhiPages.Login">
-        <test-method is-config="true" signature="OpenURL()[pri:0, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:04:54 CEST" name="OpenURL" finished-at="2021-05-15T06:04:58 CEST" duration-ms="4541" status="PASS">
+    <test started-at="2021-05-16T18:43:14 CEST" name="Default test" finished-at="2021-05-16T18:43:29 CEST" duration-ms="14279">
+      <class name="rajhiPages.AddSupplier">
+        <test-method is-config="true" signature="OpenURL()[pri:0, instance:rajhiPages.AddSupplier@1dde4cb2]" started-at="2021-05-16T18:43:14 CEST" name="OpenURL" finished-at="2021-05-16T18:43:18 CEST" duration-ms="4207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenURL -->
-        <test-method signature="LoginFailBlankUsernameAndPw()[pri:1, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:04:58 CEST" name="LoginFailBlankUsernameAndPw" finished-at="2021-05-15T06:05:07 CEST" duration-ms="8981" status="PASS">
+        <test-method signature="AddnewSupplierSuccess()[pri:1, instance:rajhiPages.AddSupplier@1dde4cb2]" started-at="2021-05-16T18:43:19 CEST" name="AddnewSupplierSuccess" finished-at="2021-05-16T18:43:27 CEST" duration-ms="8213" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginFailBlankUsernameAndPw -->
-        <test-method signature="LoginFailBlankUsername()[pri:2, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:07 CEST" name="LoginFailBlankUsername" finished-at="2021-05-15T06:05:09 CEST" duration-ms="1726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginFailBlankUsername -->
-        <test-method signature="LoginFailBlankPW()[pri:3, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:09 CEST" name="LoginFailBlankPW" finished-at="2021-05-15T06:05:11 CEST" duration-ms="1478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginFailBlankPW -->
-        <test-method signature="LoginFailWrongUserName()[pri:4, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:11 CEST" name="LoginFailWrongUserName" finished-at="2021-05-15T06:05:22 CEST" duration-ms="11246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginFailWrongUserName -->
-        <test-method signature="LoginFailWrongPW()[pri:5, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:22 CEST" name="LoginFailWrongPW" finished-at="2021-05-15T06:05:24 CEST" duration-ms="2457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginFailWrongPW -->
-        <test-method signature="LoginSuccess()[pri:6, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:24 CEST" name="LoginSuccess" finished-at="2021-05-15T06:05:27 CEST" duration-ms="3021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginSuccess -->
-        <test-method is-config="true" signature="Closedriver()[pri:0, instance:rajhiPages.Login@1ab3a8c8]" started-at="2021-05-15T06:05:27 CEST" name="Closedriver" finished-at="2021-05-15T06:05:28 CEST" duration-ms="755" status="PASS">
+        </test-method> <!-- AddnewSupplierSuccess -->
+        <test-method is-config="true" signature="Closedriver()[pri:0, instance:rajhiPages.AddSupplier@1dde4cb2]" started-at="2021-05-16T18:43:27 CEST" name="Closedriver" finished-at="2021-05-16T18:43:29 CEST" duration-ms="1782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closedriver -->
-      </class> <!-- rajhiPages.Login -->
+      </class> <!-- rajhiPages.AddSupplier -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

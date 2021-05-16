@@ -89,7 +89,11 @@ public class AddSupplier {
 		chkAgreement.sendKeys(Keys.ENTER);
 
 Thread.sleep(400);
+System.out.println(driver.getCurrentUrl());
+System.out.println(" getWindowHandle   "+driver.getWindowHandle());
+System.out.println(" getWindowHandles   "+driver.getWindowHandles());
 
+driver.getCurrentUrl();
 		/*
 		 * WebElement labelAgreement=driver.findElement(By.id("labelAgreement"));
 		 * ////*[@id="labelAgreement"] //chkAgreement.sendKeys(Keys.ENTER);
@@ -122,7 +126,7 @@ Thread.sleep(400);
 	@AfterTest
 	public void Closedriver()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 
 }
